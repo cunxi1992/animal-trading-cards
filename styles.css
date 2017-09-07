@@ -1,0 +1,76 @@
+/* CSS Reset  */
+/*使用通过选择器设置所有标签样式，所有标签设置的padding和border被包含在定义的width和height之内*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body 样式*/
+body {
+	/*设置网页页面的字体大小、行高、字体*/
+	font:12px/1.5 Helvetica, Arial, sans-serif;
+	/*设置网页背景色*/
+	background-color: white;
+	/*设置网页页面的字体颜色*/
+	color: #333;
+}
+
+/* card container 样式*/
+.card {
+	width: 326px;
+	/*设置外边距，上下间距，左右间距根据网页自动调整*/
+	margin: 10px auto;
+	/*设置内边距*/
+	padding: 12px;
+	/*设置边框的宽、边框样式、边框颜色*/
+	border: 1px solid #CCC;
+	/*设置阴影：水平阴影位置、垂直阴影位置、模糊距离、阴影颜色*/
+	box-shadow: 7px 7px 3px #CCC;
+	/*设置边框背景色*/
+	background: white;
+	/*设置边框的圆角*/
+	border-radius: 5px;
+}
+
+/* animal name  动物名字*/
+.animalName {
+	font-size: 20px;
+	margin: 10px 0 20px;
+}
+
+/* animal image  动物图片*/
+.animalImg {
+	/*设置图片宽度*/
+	width: 300px;
+	/*设置图片高度*/
+	height: 200px;
+	/*图片下外边距*/
+	margin-bottom: 12px;
+}
+
+/* animal detail 动物详细信息*/
+.animalDetail {
+	/*设置边框的宽、边框样式、边框颜色*/
+	border: 1px solid #CCC;
+	/*设置内边距*/
+	padding: 12px;
+}
+/* animal interesting things 动物趣事 */
+.animalInteresting {
+	font-style: italic;
+	color: #666;
+}
+
+/* animal items 列表项*/
+.items li{
+	/*去除列表项前面的圆点*/
+	list-style-type: none;
+	/*设置列表项的外间距*/
+	margin: 12px 0;
+}
+
+/*包含选择器，将指定标签元素下的后辈元素设置样式*/
+.items li span {
+	font-weight: bold;
+}
